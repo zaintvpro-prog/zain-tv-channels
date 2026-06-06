@@ -6,17 +6,35 @@
       "channels": [
         {
           "id": "1",
-          "name": "Big Buck Bunny",
-          "logo": "https://mediaaws-live.almasryalyoum.com/AMAYLivePictures/portalimages/news/large/2025/10/14/2790234_0.png",
-          "color": "#4CAF50",
-          "streamUrl": "https://imn-live.esite-lab.com/hls/iraqia-sports-1.m3u8"
+          "name": "العراقية الإخبارية",
+          "logoUrl": "https://mediaaws-live.almasryalyoum.com/AMAYLivePictures/portalimages/news/large/2025/10/14/2790234_0.png",
+          "color": "#1976D2",
+          "streamUrl": "https://imn-live.esite-lab.com/hls/iraqia-news.m3u8",
+          "category": "أخبار"
         },
         {
           "id": "2",
-          "name": "Sintel",
-          "logo": "⚔️",
-          "color": "#2196F3",
-          "streamUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4"
+          "name": "France 24 Arabic",
+          "logoUrl": "https://upload.wikimedia.org/wikipedia/fr/thumb/2/24/France24_logo.svg/1200px-France24_logo.svg.png",
+          "color": "#0066CC",
+          "streamUrl": "https://stream.france24.com/live/hls/master.m3u8",
+          "category": "أخبار"
+        },
+        {
+          "id": "3",
+          "name": "DW Arabic",
+          "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Deutsche_Welle_logo.svg/1200px-Deutsche_Welle_logo.svg.png",
+          "color": "#003366",
+          "streamUrl": "https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/index.m3u8",
+          "category": "أخبار"
+        },
+        {
+          "id": "4",
+          "name": "Al Jazeera",
+          "logoUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f2/Aljazeera.svg/1200px-Aljazeera.svg.png",
+          "color": "#D4A843",
+          "streamUrl": "https://live-hls-web-aja.getaj.net/AJA/index.m3u8",
+          "category": "أخبار"
         }
       ]
     },
@@ -25,11 +43,28 @@
       "icon": "⚽",
       "channels": [
         {
-          "id": "3",
-          "name": "For Bigger Blazes",
-          "logo": "🏃",
+          "id": "5",
+          "name": "العراقية الرياضية 1",
+          "logoUrl": "https://mediaaws-live.almasryalyoum.com/AMAYLivePictures/portalimages/sports/large/2025/10/14/2790234_0.png",
+          "color": "#D32F2F",
+          "streamUrl": "https://imn-live.esite-lab.com/hls/iraqia-sports-1.m3u8",
+          "category": "رياضة"
+        },
+        {
+          "id": "6",
+          "name": "العراقية الرياضية 2",
+          "logoUrl": "https://mediaaws-live.almasryalyoum.com/AMAYLivePictures/portalimages/sports/large/2025/10/14/2790234_0.png",
           "color": "#FF9800",
-          "streamUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4"
+          "streamUrl": "https://imn-live.esite-lab.com/hls/iraqia-sports-2.m3u8",
+          "category": "رياضة"
+        },
+        {
+          "id": "7",
+          "name": "Red Bull TV",
+          "logoUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/8/8e/Red_Bull_logo.svg/1200px-Red_Bull_logo.svg.png",
+          "color": "#DB0A40",
+          "streamUrl": "https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8",
+          "category": "رياضة"
         }
       ]
     },
@@ -38,11 +73,48 @@
       "icon": "🎬",
       "channels": [
         {
-          "id": "4",
-          "name": "For Bigger Fun",
-          "logo": "🎉",
+          "id": "8",
+          "name": "Fashion TV",
+          "logoUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5c/Fashion_TV_logo.svg/1200px-Fashion_TV_logo.svg.png",
           "color": "#E91E63",
-          "streamUrl": "http://core.itsall.pro/live/Allgoodlotfi/hhDZSxCpeD/261623.m3u8"
+          "streamUrl": "https://fash1043.cloudycdn.services/slive/_definst_/ftv_paris.smil/playlist.m3u8",
+          "category": "ترفيه"
+        },
+        {
+          "id": "9",
+          "name": "Test Channel",
+          "logoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/BigBuckBunny.jpg",
+          "color": "#4CAF50",
+          "streamUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+          "category": "ترفيه"
+        }
+      ]
+    },
+    {
+      "name": "أطفال",
+      "icon": "🧸",
+      "channels": [
+        {
+          "id": "10",
+          "name": "Kids Channel",
+          "logoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/ForBiggerMeltdowns.jpg",
+          "color": "#FFC107",
+          "streamUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerMeltdowns.mp4",
+          "category": "أطفال"
+        }
+      ]
+    },
+    {
+      "name": "ديني",
+      "icon": "🕌",
+      "channels": [
+        {
+          "id": "11",
+          "name": "Quran Channel",
+          "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/IslamSymbol-white.svg/1200px-IslamSymbol-white.svg.png",
+          "color": "#388E3C",
+          "streamUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
+          "category": "ديني"
         }
       ]
     }
